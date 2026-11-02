@@ -1,0 +1,3 @@
+/home/krste/Projects/cpp/cube/build/CMakeFiles/cube.dir
+/home/krste/Projects/cpp/cube/build/CMakeFiles/edit_cache.dir
+/home/krste/Projects/cpp/cube/build/CMakeFiles/rebuild_cache.dir

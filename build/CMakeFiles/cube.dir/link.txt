@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/cube.dir/link.d CMakeFiles/cube.dir/src/main.cpp.o -o cube  /usr/lib/libraylib.so.6.2.0 -lm
