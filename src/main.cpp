@@ -2,7 +2,7 @@
 
 int main() {
 
-  InitWindow(1280, 720, "Cube Engine");
+  InitWindow(1920, 1080, "Cube Engine");
     Camera3D camera = {0};
 
   camera.position = {5.0f, 5.0f, 5.0f};
@@ -12,21 +12,37 @@ int main() {
   camera.projection = CAMERA_PERSPECTIVE;
 
   Model cube = LoadModel("assets/models/test_cube.glb");
+  RenderTexture2D target = LoadRenderTexture(640, 360);
 
   SetTargetFPS(60);
 
   while (!WindowShouldClose()) {
-    BeginDrawing();
+    BeginTextureMode(target);
     ClearBackground(RAYWHITE);
+    
     BeginMode3D(camera);
     DrawModel(cube, Vector3{0, 0, 0,}, 1.0f, WHITE);
     DrawGrid(20, 1.0f);
     EndMode3D();
+
+    EndTextureMode();
+    
     DrawFPS(10, 10);
+
+    BeginDrawing();
+    ClearBackground(BLACK);
+
+    DrawTexturePro(target.texture,
+                   Rectangle{0, 0, 640, -360},
+                   Rectangle{0, 0, 1280, 720},
+                   Vector2{0, 0}, 0.0f,
+                   WHITE
+		  );
     EndDrawing();
   }
 
   UnloadModel(cube);
+  UnloadRenderTexture(target);
   CloseWindow();
   return 0;
 }
