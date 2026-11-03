@@ -10,6 +10,7 @@ find_package(raylib REQUIRED)
 
 add_executable(cube
 	src/main.cpp
+	src/input/Input.cpp
 )
 
 target_link_libraries(cube PRIVATE raylib)

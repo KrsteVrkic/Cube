@@ -129,6 +129,30 @@ cube/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
 .PHONY : cube/fast
 
+src/input/Input.o: src/input/Input.cpp.o
+.PHONY : src/input/Input.o
+
+# target to build an object file
+src/input/Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/input/Input.cpp.o
+.PHONY : src/input/Input.cpp.o
+
+src/input/Input.i: src/input/Input.cpp.i
+.PHONY : src/input/Input.i
+
+# target to preprocess a source file
+src/input/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/input/Input.cpp.i
+.PHONY : src/input/Input.cpp.i
+
+src/input/Input.s: src/input/Input.cpp.s
+.PHONY : src/input/Input.s
+
+# target to generate assembly for a file
+src/input/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/input/Input.cpp.s
+.PHONY : src/input/Input.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cube"
+	@echo "... src/input/Input.o"
+	@echo "... src/input/Input.i"
+	@echo "... src/input/Input.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
