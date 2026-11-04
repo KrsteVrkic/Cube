@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cube.dir/link.d"
+  "CMakeFiles/cube.dir/src/Player.cpp.o"
+  "CMakeFiles/cube.dir/src/Player.cpp.o.d"
   "CMakeFiles/cube.dir/src/input/Input.cpp.o"
   "CMakeFiles/cube.dir/src/input/Input.cpp.o.d"
   "CMakeFiles/cube.dir/src/main.cpp.o"

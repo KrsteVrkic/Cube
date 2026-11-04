@@ -4,6 +4,7 @@ cube: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/cube.dir/src/main.cpp.o \
   CMakeFiles/cube.dir/src/input/Input.cpp.o \
+  CMakeFiles/cube.dir/src/Player.cpp.o \
   /usr/lib/libraylib.so.6.2.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -50,6 +51,8 @@ cube: \
 CMakeFiles/cube.dir/src/main.cpp.o:
 
 CMakeFiles/cube.dir/src/input/Input.cpp.o:
+
+CMakeFiles/cube.dir/src/Player.cpp.o:
 
 /usr/lib/libraylib.so.6.2.0:
 

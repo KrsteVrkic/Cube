@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/krste/Projects/cpp/cube/src/Player.cpp" "CMakeFiles/cube.dir/src/Player.cpp.o" "gcc" "CMakeFiles/cube.dir/src/Player.cpp.o.d"
   "/home/krste/Projects/cpp/cube/src/input/Input.cpp" "CMakeFiles/cube.dir/src/input/Input.cpp.o" "gcc" "CMakeFiles/cube.dir/src/input/Input.cpp.o.d"
   "/home/krste/Projects/cpp/cube/src/main.cpp" "CMakeFiles/cube.dir/src/main.cpp.o" "gcc" "CMakeFiles/cube.dir/src/main.cpp.o.d"
   "" "cube" "gcc" "CMakeFiles/cube.dir/link.d"
