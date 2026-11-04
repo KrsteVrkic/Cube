@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/krste/Projects/cpp/cube/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
